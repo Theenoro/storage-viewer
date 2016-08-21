@@ -1,0 +1,23 @@
+{
+  "name": "storage-viewer",
+  "version": "0.0.2",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Theenoro@bitbucket.org/Theenoro/storage-viewer.git"
+  },
+  "author": "Theenoro",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Theenoro/storage-viewer#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "fs": "0.0.2",
+    "path": "^0.12.7"
+  }
+}

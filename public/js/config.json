@@ -1,0 +1,12 @@
+{
+  "types":{
+    "gif":"img",
+    "png":"img",
+    "jpg":"img",
+    "jpeg":"img",
+    "mp4":"video",
+    "avi":"video",
+    "mkv":"video",
+    "flv":"video"
+  }
+}

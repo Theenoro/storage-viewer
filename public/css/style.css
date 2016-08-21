@@ -1,0 +1,82 @@
+@import 'https://fonts.googleapis.com/css?family=Exo';
+*{
+  font-family: 'Exo', sans-serif;
+}
+body{
+  margin:0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.data{
+  border:1px solid #454545;
+  margin-bottom:5px;
+  display:flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.data .folder,.data .file{
+  border: 1px solid #454545;
+  width: 24%;
+  display: block;
+}
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+.modal-content iframe{
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.modal-body{
+  position: absolute;
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin: -16px 0 0 0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100vh;
+}
+.modal-body .close {
+    margin-top: -2px;
+    z-index: 50;
+    position: absolute;
+    right: 1em;
+    top: 1.5em;
+}
+#modal-content img {
+    max-height: 100vh;
+    max-width: 100%;
+}
+#modal-content video{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swipe{
+  top: 36vh;
+  background-color: rgba(69, 69, 69, 0.45);
+  height: 25vh;
+  z-index: 50;
+  position: absolute;
+}
+.swipe[data-do="left"]{
+  left: 0;
+}
+.swipe[data-do="right"]{
+  right: 0;
+}
+.btn{
+  overflow: hidden;
+}

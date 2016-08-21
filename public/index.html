@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Storage Viewer</title>
+    <meta charset="utf-8"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link href="https://bootswatch.com/superhero/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css"/>
+  </head>
+  <body>
+    <div class="container-fluid content">
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <input type="hidden" value="0" id="currentFile"/>
+              <button class="btn link swipe" data-do="left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+              <button class="btn link swipe" data-do="right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <div id="modal-content"></div>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+      <div class="panel panel-default">
+        <div class="panel-heading">Folders:</div>
+        <div class="panel-body">
+          <div class="row folders" data-do="folders">
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">Files:</div>
+        <div class="panel-body">
+          <div class="row files" data-do="files">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>

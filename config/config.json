@@ -1,0 +1,6 @@
+{
+  "web":{
+    "port":3001
+  },
+  "defaultPath":""
+}
